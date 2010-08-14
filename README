@@ -1,0 +1,298 @@
+A Virtual Taj Mahal Demo
+========================
+by Ranjit Mathew <rmathew@gmail.com>
+
+Released On: 2001-12-16
+
+This is a simple, virtual walkthrough of the famous Taj Mahal, 
+based on the original demo developed and published by Intel India. 
+
+I have used slightly modified 3D models, and most of the textures, 
+from the original demo, while the programming has been done 
+completely from scratch. The demo can run on Windows 9x/NT4 and 
+Linux on PCs (i386-compatible systems) and uses OpenGL and the 
+Simple DirectMedia Layer (SDL).
+
+Before you proceed further, please make sure you understand and
+agree to the following:
+
+  a. All the source code accompanying this demo is released
+     under the BSD Licence, a copy of which can be found in
+     the "LICENCE" file.
+
+  b. The 3D models of the Taj Mahal and the textures bundled with 
+     this demo have NOT been created by me. You should contact
+     Intel India (http://www.intel.com/in/) if you wish to use 
+     them.
+
+With that out of the way, I hope you like what you see. I wish I 
+could make it better - smoother and leaner - but there is only so 
+much a novice 3D graphics programmer afflicted with loads of sloth 
+can achieve. 
+
+Running the Demo:
+-----------------
+You must compile the demo from its sources before you can run it
+(see "Compiling From the Sources" below). This should give you
+the executable programme for the demo. It will be named "vtaj"
+on Linux and "vtaj.exe" on Windows.
+
+You can start the demo by typing "vtaj" on the command-line, or
+by double-clicking on "vtaj.exe" in Windows Explorer. The following
+keys can be used for moving around:
+
+    Up and Down Arrow:     Move forward and backward
+    Left and Right Arrow:  Turning around
+    Page Up and Page Down: Move up and down
+    ESC:                   Quit the demo
+    F1:                    Dump some info (FPS etc.) to the console
+
+(NOTE: Due to the quirks in the models, I have had to put in the
+restriction that once you get inside the Taj, you can not get out 
+of it. Sorry about that!)
+
+The default behaviour is to start the demo in 800x600, fullscreen
+mode. You can change this by giving the following command-line
+options:
+
+      -6: 640x480 at desktop colour depth
+      -8: 800x600 at desktop colour depth (default)
+     -10: 1024x768 at desktop colour depth
+
+      -w: windowed mode
+      -f: fullscreen mode (default)
+
+    -gld: use GLData models (default)
+    -bsp: use BSP Tree models
+
+For example, "vtaj -6 -w" will start the demo in a window of 
+size 640x480.
+
+System Requirements:
+--------------------
+The demo runs smoothly on my personal system, which is a 
+Pentium-II 450MHz/128MB box with an nVidia Riva TNT2 Ultra
+with 32MB display memory, running MS Windows 98 and Linux 2.4.2
+with XFree86 4.0.3.
+
+In general, you must have a Pentium-II or better processor with 
+around 64MB of system RAM and a 3D graphics accelerator card
+with around 32MB of display memory, to get decent results.
+
+You must have OpenGL 1.1 support on your system (most Windows 
+systems have it), as well as SDL 1.2.3 or better, and SDL_image 
+1.0 or better. You can get SDL and SDL_image from
+http://www.libsdl.org/ if you do not have it. 
+
+NOTE: If you are running a very old version of Windows 95, you
+will have to get OpenGL for Windows 95 from Microsoft - details
+can be found in the "User" section of the OpenGL web site
+(http://www.opengl.org/).
+
+If you do not have accelerated OpenGL drivers for your graphics
+card under Windows, you can get them either from your card
+manufacturer's site or using the GLSetup utility 
+(http://www.glsetup.com/).
+
+For Linux, you should be running XFree86 4.0.3 or better, with
+an accelerated driver for your video card. I have been using
+nVidia Linux GL drivers version 1.0.2313. You must also have
+an SGI GLU compliant libGLU (*not* the Mesa GLU). XFree86 4.1.0
+or better come with all the needed OpenGL libraries.
+If you do not have OpenGL drivers and libraries for your Linux
+system, you might be able to find them at your card manufacturer's
+site or at http://www.mesa3d.org/.
+
+Compiling From the Sources:
+---------------------------
+The source-code for compiling the demo and associated utilities is
+in the "src" folder. The models and textures used by the demo are
+in the "models" and "textures" folders respectively. The programmes
+are written in the C programming language.
+
+On Linux, you must use GCC 2.95 or better (or EGCS 1.1.2). On
+Windows, I have only used MinGW 1.1 (GCC 2.95.3) for compiling 
+the demo - you can get it from http://www.mingw.org/. 
+The programmes use only ANSI C and no compiler-specific directives, 
+so it should not be too difficult to "port" them to another compiler 
+using the make-file as a starting point.
+
+The make-file has been written for GNU Make 3.77 or better.
+Please verify the paths for the libraries specified in the
+make-file "Makefile" before compiling.
+
+Typing "make" in the top-level folder should create the demo
+programme and utilities, if everything went fine. The executables
+are placed in the top-level folder.
+
+To generate the BSP Tree models, type "make genbsp".
+
+WARNING: Generating the BSP Tree models might take an awful amount
+of time depending on your processor speed - and might not be worth
+the effort, as the BSP Tree models are slower to render (details 
+below).
+
+GLData v/s BSP Trees or "The BSP MysTree":
+------------------------------------------
+(NOTE: This section is a bit long - read this if you are 
+interested in knowing how the demo works and have a working 
+knowledge of 3D graphics terminology.)
+
+I became interested in 3D graphics programming towards the latter
+half of my undergraduate studies. Those were the Oldskool days -
+"when men were men and wrote their own rasterisers" (to paraphrase
+Linus Torvalds). After joining the IT industry however, I did not
+actively do 3D graphics programming for almost 5 years! The industry
+meanwhile had moved to 3D accelerators, higher level APIs like
+OpenGL and DirectX, floating-point arithmetic, etc. People no 
+longer use custom texture-mappers, fixed-point arithmetic, 
+hand-coded tight assembler loops, etc.
+
+They are also able to display much more detailed and better 
+looking graphics.
+
+When I decided to start 3D graphics programming again, I decided
+to use the OpenGL and SDL APIs for their cleanliness and simplicity
+and Linux as a development platform for its stability and maturity.
+
+I really liked the Intel VirtualTaj demo and decided to "port" it -
+it was written a while ago and did not recognise PIII or better
+processors, could work only as a plugin inside Internet Explorer,
+and worked only on Windows 9x (not even NT). It was beautiful and
+I felt it ought to be seen by a wider audience - and it would
+also let me learn "modern" 3D graphics programming techniques
+on a big enough, and yet manageable, scale.
+
+Since I did not have the source code to the original demo, I had
+to figure out how to work with its data files. I was helped a lot
+by hints from the original developer, D Sanjit.
+
+The original models were Alias|Wavefront OBJ models - a model
+each for the Taj exterior and interior and corresponding low
+polygon models used for collision detection. All the textures
+were high quality JPEG images.
+
+I had to fix a couple of problems with the original models -
+wrong orientation for certain triangles, incorrect textures
+for some, degenerate triangles, etc.
+
+I wrote a simple OBJ loader and an OpenGL based renderer
+for showing the models - it was painfully S-L-O-W! The 
+models have a lot of triangles and use quite a lot of textures.
+
+Over time, I found that minimising texture binds, using 
+mipmapping, using vertex arrays, back-face culling, etc. sped 
+up things considerably.
+
+The OBJ format was a bit cumbersome to work with and took up
+more space than I thought was needed and so I created a simple
+format called "GLData" that was compact and more suitable for
+OpenGL vertex arrays. The file "src/gld.h" has more details
+on this format. For example, the Taj Exteriors model could now
+be stored in around 300K, instead of the original 1.4MB
+(both are uncompressed formats).
+
+The demo was now running at a decent speed. However, I wanted
+to speed it up even more so that it could run properly on 
+low-end machines. I had read about BSP Trees and was impressed
+with the speed-ups they seemed to bring. I was convinced that
+BSP Trees would tremendously speed up the renderer.
+
+Boy, was I wrong!
+
+My simple BSP compiler faced problems right from the very
+begining - floating point errors led to paradoxical conditions
+and infinite loops, a HUGE number of triangles were generated
+from the original set, etc. I was able to considerably
+bring down the number of triangles by rejecting degenerate
+triangles, weeding out needle-like triangles that caused 
+problems in calculations, consolidating vertices taking
+"practical resolution" into consideration, choosing splitters
+that created the minimum splits and best tree balance, etc.
+
+I ended up with creating 94000 triangles from the 10300 input
+triangles for the original Taj Exteriors model, for example.
+BSP Trees take up much more space as well - details of the
+file format I use are given in the file "src/bsp.h". For example,
+the Taj Exteriors model that took around 300K in the GLData
+version, took 2MB in the BSP Tree version! BSP Trees also took 
+much more memory at runtime than GLData models.
+
+But the main problem was that the BSP Tree renderer was 
+pathetically SLOW - the slowest EVER in fact! This could
+directly be attributed to the almost tenfold increase in the
+number of triangles to be shown. Back-face culling helped
+a bit and view-frustum culling helped considerably.
+(BSP Trees are extremely well-suited to view frustum culling, 
+where entire sub-trees can be discarded based on the viewer's
+position.)
+
+The problem is that the frame-rates become extremely
+inconsistent depending on the viewer's position and viewing
+angle. When you are outside the Taj and looking at it in its
+entirety, more than 50% of the 94000 triangles in the BSP
+Tree, using almost all the textures, are within the view frustum
+and are visible, bringing the frame-rate to a crawl. Compare
+this to the 50% of the 10300 triangles from the GLData model
+that are visible (after back facing triangles are culled).
+
+Of course, I'm a novice and am certainly not applying all the 
+tricks of the trade, but I feel the situation might not 
+improve much. Potentially Visible Set (PVS) calculations will
+not yield much benefits, though Level-of-Detail (LOD) 
+management might help a bit. I do not yet know how to do 
+proper occlusion-culling. But these would not be worth the
+effort.
+
+BSP Trees seem to be very useful in the cases when the geometry
+is evenly spread out - not when it is concentrated in a place
+which is visible in its entirety. Splits are bound to happen
+and it would exacerbate the worst case performance.
+
+Or I am missing something big time, in which case I request
+you to enlighten me - I shall be extremely grateful.
+
+The demo now uses GLData models and GLData based rendering by
+default. To use BSP Tree models, you must first generate
+them from the GLData models as explained earlier and enable
+the BSP Tree based renderer using the "-bsp" flag on the 
+command line.
+
+Acknowledgements:
+-----------------
+The original Virtual Taj Mahal demo was developed by Intel
+India (http://www.intel.com/in/) and used to be available
+at:
+
+  http://www.intel.com/apac/eng/tajmahal/model.htm
+
+The demo moved out of their site some time back, since it was
+quite old. They were kind enough to dig it out for me on my
+request. I would like to particularly thank Ajay Mathur for
+this.
+
+The DirectX programming for the original demo was done by
+D Sanjit (dsanjit@yahoo.com), who was kind enough to answer
+some of my queries and provided useful insights.
+
+The models and textures for the original demo were created
+by VRR Technologies (http://www.vrrt.com/).
+
+Huge thanks to great men like Michael Abrash, John Carmack,
+Donald Knuth, William Kahn, etc. for sharing their knowledge
+with us lesser mortals, and to people like Linus Torvalds,
+Richard Stallman, Sam Lantinga, the KDE team, etc. for 
+creating great FREE (as in beer) software that make our 
+life a lot easier.
+
+Quite a few papers published by the academia have been of
+immense help - it is unfortunate that most professional
+programmers do not take advantage of this immense wealth.
+
+Thanks to Karthik TS and Anusha KV for being patient
+listeners to my excited and often incoherent outbursts.
+
+And finally, thanks to YOU for being a patient reader and
+for trying out the demo.
+
+                      --- X ---

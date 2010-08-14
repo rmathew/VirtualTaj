@@ -1,0 +1,1205 @@
+#
+# Wavefront material file: c:\c++\taj_beta_02_atl\models\internals.mtl
+#
+# Converted by the PolyTrans geometry converter from Okino Computer Graphics, Inc.
+# Date/time of export: 07/16/1998 21:24:30
+#
+# Bounding box of geometry = (-61.0986,-26.2492,-289.428) to (62.6848,117.394,-165.645).
+
+newmtl default
+	Ns 32
+	d 1
+	illum 2
+	Kd 0.4 0.4 0.4
+	Ks 0.7 0.7 0.7
+	Ka 0.3 0.3 0.3
+        map_Kd patern04.jpg
+
+newmtl tex27
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex27.jpg
+
+newmtl material__3
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd  bsidet01.jpg
+
+newmtl material__2
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.00784314 0 0
+	Ks 0 0 0
+	Ka 1 0 0
+        map_Kd bsidet01.jpg
+
+newmtl tex00
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex00.jpg
+
+newmtl tex04
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex04.jpg
+
+newmtl tex08
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex08.jpg
+
+newmtl tex12
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex12.jpg
+
+newmtl tex16
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex16.jpg
+
+newmtl tex17
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex17.jpg
+
+newmtl tex18
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex18.jpg
+
+newmtl tex13
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex13.jpg
+
+newmtl tex14
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex14.jpg
+
+newmtl tex03
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex03.jpg
+
+newmtl tex07
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex07.jpg
+
+newmtl tex11
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex11.jpg
+
+newmtl tex15
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex15.jpg
+
+newmtl tex19
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex19.jpg
+
+newmtl tex23
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex23.jpg
+
+newmtl tex22
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex22.jpg
+
+newmtl tex21
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex21.jpg
+
+newmtl tex20
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex20.jpg
+
+newmtl tex24
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex24.jpg
+
+newmtl tex28
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex28.jpg
+
+newmtl tex32
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex32.jpg
+
+newmtl tex36
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex36.jpg
+
+newmtl tex37
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex37.jpg
+
+newmtl tex38
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex38.jpg
+
+newmtl tex39
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex39.jpg
+
+newmtl tex35
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex35.jpg
+
+newmtl tex31
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex31.jpg
+
+newmtl tex01
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex01.jpg
+
+newmtl tex02
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex02.jpg
+
+newmtl tex05
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex05.jpg
+
+newmtl tex06
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex06.jpg
+
+newmtl tex09
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex09.jpg
+
+newmtl tex10
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex10.jpg
+
+newmtl tex25
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex25.jpg
+
+newmtl tex26
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex26.jpg
+
+newmtl tex29
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex29.jpg
+
+newmtl tex30
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex30.jpg
+
+newmtl tex33
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex33.jpg
+
+newmtl tex34
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd tex34.jpg
+
+newmtl wintop16
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd wintop16.jpg
+
+newmtl wintop15
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd wintop15.jpg
+
+newmtl wintop14
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd wintop14.jpg
+
+newmtl wintop01
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd wintop01.jpg
+
+newmtl wintop09
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd wintop09.jpg
+
+newmtl wintop05
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd wintop05.jpg
+
+newmtl wintop12
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd wintop12.jpg
+
+newmtl wintop10
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd wintop10.jpg
+
+newmtl wintop08
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd wintop08.jpg
+
+newmtl wintop07
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd wintop07.jpg
+
+newmtl wintop06
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd wintop06.jpg
+
+newmtl wintop04
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd wintop04.jpg
+
+newmtl wintop03
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd wintop03.jpg
+
+newmtl wintop02
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd wintop02.jpg
+
+newmtl wintop11
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd wintop11.jpg
+
+newmtl wintop13
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd wintop13.jpg
+
+newmtl fuck_tex
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd marble.jpg
+
+newmtl dome_tiles_2
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.513726 0.513726 0.513726
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd dometex.jpg
+
+newmtl material__1
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd patern04.jpg
+
+newmtl flooron02
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on02.jpg
+
+newmtl flooron03
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on03.jpg
+
+newmtl flooron04
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on04.jpg
+
+newmtl flooron05
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on05.jpg
+
+newmtl flooron06
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on06.jpg
+
+newmtl flooron13
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on13.jpg
+
+newmtl flooron09
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on09.jpg
+
+newmtl flooron10
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on10.jpg
+
+newmtl flooron11
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on11.jpg
+
+newmtl flooron12
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on12.jpg
+
+newmtl flooron08
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on08.jpg
+
+newmtl flooron14
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on14.jpg
+
+newmtl flooron20
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on20.jpg
+
+newmtl flooron16
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on16.jpg
+
+newmtl flooron17
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on17.jpg
+
+newmtl flooron18
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on18.jpg
+
+newmtl flooron19
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on19.jpg
+
+newmtl flooron15
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on15.jpg
+
+newmtl flooron21
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on21.jpg
+
+newmtl flooron27
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on27.jpg
+
+newmtl flooron23
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on23.jpg
+
+newmtl flooron24
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on24.jpg
+
+newmtl flooron25
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on25.jpg
+
+newmtl flooron26
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on26.jpg
+
+newmtl flooron22
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on22.jpg
+
+newmtl flooron28
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on28.jpg
+
+newmtl flooron34
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on34.jpg
+
+newmtl flooron30
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on30.jpg
+
+newmtl flooron31
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on31.jpg
+
+newmtl flooron32
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on32.jpg
+
+newmtl flooron33
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on33.jpg
+
+newmtl flooron29
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on29.jpg
+
+newmtl flooron35
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on35.jpg
+
+newmtl flooron41
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on41.jpg
+
+newmtl flooron37
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on37.jpg
+
+newmtl flooron38
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on38.jpg
+
+newmtl flooron39
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on39.jpg
+
+newmtl flooron40
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on40.jpg
+
+newmtl flooron36
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on36.jpg
+
+newmtl flooron42
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on42.jpg
+
+newmtl flooron48
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on48.jpg
+
+newmtl flooron44
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on44.jpg
+
+newmtl flooron45
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on45.jpg
+
+newmtl flooron46
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on46.jpg
+
+newmtl flooron47
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ka 1 1 1
+        map_Kd flr_on47.jpg
+
+newmtl tomb1_01
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd tmb1_01.jpg
+
+newmtl tomb1_02
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd tmb1_02.jpg
+
+newmtl tomb1_03
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd tmb1_03.jpg
+
+newmtl tomb1_04
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd tmb1_04.jpg
+
+newmtl tomb1_05
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd tmb1_05.jpg
+
+newmtl tomb1_06
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd tmb1_06.jpg
+
+newmtl tomb1_mpat_5
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd m_pat5.jpg
+
+newmtl tomb1_f08
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd tmb1_f08.jpg
+
+newmtl tomb1_t12
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd tmb1_t12.jpg
+
+newmtl tomb1_t11
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd tmb1_t11.jpg
+
+newmtl tomb1_t10
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd tmb1_t10.jpg
+
+newmtl tomb1_t09
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd tmb1_t09.jpg
+
+newmtl lgrill07
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.698039 0.698039 0.698039
+	Ks 0 0 0
+	Ka 0.0980392 0.0980392 0.0980392
+        map_Kd lgrill07.jpg
+
+newmtl lgrill08
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.698039 0.698039 0.698039
+	Ks 0 0 0
+	Ka 0.0980392 0.0980392 0.0980392
+        map_Kd lgrill08.jpg
+
+newmtl lgrill09
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.698039 0.698039 0.698039
+	Ks 0 0 0
+	Ka 0.0980392 0.0980392 0.0980392
+        map_Kd lgrill09.jpg
+
+newmtl lgrill05
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.698039 0.698039 0.698039
+	Ks 0 0 0
+	Ka 0.0980392 0.0980392 0.0980392
+        map_Kd lgrill05.jpg
+
+newmtl lgrill06
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.698039 0.698039 0.698039
+	Ks 0 0 0
+	Ka 0.0980392 0.0980392 0.0980392
+        map_Kd lgrill06.jpg
+
+newmtl lgrill04
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.698039 0.698039 0.698039
+	Ks 0 0 0
+	Ka 0.0980392 0.0980392 0.0980392
+        map_Kd lgrill04.jpg
+
+newmtl lgrill02
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.698039 0.698039 0.698039
+	Ks 0 0 0
+	Ka 0.0980392 0.0980392 0.0980392
+        map_Kd lgrill02.jpg
+
+newmtl lgrill03
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.698039 0.698039 0.698039
+	Ks 0 0 0
+	Ka 0.0980392 0.0980392 0.0980392
+        map_Kd lgrill03.jpg
+
+newmtl lgrill01
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.698039 0.698039 0.698039
+	Ks 0 0 0
+	Ka 0.0980392 0.0980392 0.0980392
+        map_Kd lgrill01.jpg
+
+newmtl sgrill04
+	Ns 13
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd sgrill04.jpg
+
+newmtl sgrill06
+	Ns 13
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd sgrill06.jpg
+
+newmtl sgrill02
+	Ns 13
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd sgrill02.jpg
+
+newmtl sgrill03
+	Ns 13
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd sgrill03.jpg
+
+newmtl sgrill01
+	Ns 13
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd sgrill01.jpg
+

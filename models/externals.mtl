@@ -1,0 +1,386 @@
+#
+# Wavefront material file: c:\c++\testk3d\debug\ext_models\externals.mtl
+#
+# Converted by the PolyTrans geometry converter from Okino Computer Graphics, Inc.
+# Date/time of export: 09/30/1998 14:28:34
+#
+# Bounding box of geometry = (-3198.36,-603.301,-4629.69) to (3192.64,738.608,3755.01).
+
+newmtl default
+	Ns 32
+	d 1
+	illum 2
+	Kd 0.4 0.4 0.4
+	Ks 0.7 0.7 0.7
+	Ka 0.3 0.3 0.3
+        map_Kd patern04.jpg
+
+newmtl topfloor
+	Ns 25
+	d 1
+	illum 2
+	Kd 0.654902 0.545098 0.537255
+	Ks 0.0768627 0.0698039 0.0690196
+	Ka 0.580392 0.483081 0.47613
+        map_Kd patern13.jpg
+
+newmtl pattern01
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.627451 0.627451 0.627451
+	Ks 0 0 0
+	Ka 0.627451 0.627451 0.627451
+        map_Kd patern01.jpg
+
+newmtl railing
+	Ns 5
+	d 1
+	illum 2
+	Kd 0.498039 0.498039 0.498039
+	Ks 0.044902 0.044902 0.044902
+	Ka 0.0980392 0.0980392 0.0980392
+        map_Kd railing.jpg
+
+newmtl dome_carving
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd dmcrv.jpg
+
+newmtl base
+	Ns 5
+	d 1
+	illum 2
+	Kd 0.639216 0.54902 0.192157
+	Ks 0.044902 0.044902 0.044902
+	Ka 0.211765 0.181884 0.0636593
+        map_Kd base.jpg
+
+newmtl default_1
+	Ns 20
+	d 1
+	illum 2
+	Kd 0.698039 0.698039 0.698039
+	Ks 0.7 0.7 0.7
+	Ka 0.698039 0.698039 0.698039
+        map_Kd patern04.jpg
+
+newmtl basefloor2
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.533333 0.533333 0.533333
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd patern04.jpg
+
+newmtl grassonearth
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.407843 0.486275 0.407843
+	Ks 0 0 0
+	Ka 0.325617 0.388235 0.325617
+        map_Kd g_lawn.jpg
+
+newmtl dome
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.972549 0.964706 0.94902
+	Ks 0 0 0
+	Ka 1 0.991935 0.975806
+        map_Kd domtile3.jpg
+
+newmtl marbdome
+	Ns 30
+	d 1
+	illum 2
+	Kd 0.827451 0.843137 0.8
+	Ks 0.163137 0.163137 0.163137
+	Ka 0.827451 0.843137 0.8
+        map_Kd floormar.jpg
+
+newmtl hat01
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd hat01.jpg
+
+newmtl dome_cyl_1
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd domecyl1.jpg
+
+newmtl lawn
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd g_lawn.jpg
+
+newmtl marbflooroutside
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.901961 0.909804 0.894118
+	Ks 0 0 0
+	Ka 0.991379 1 0.982759
+        map_Kd patern08.jpg
+
+newmtl tajwater
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+	map_Kd water01.jpg
+
+newmtl base_compound
+	Ns 6
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0.0837647 0.0837647 0.0837647
+	Ka 0 0 0
+        map_Kd base.jpg
+
+newmtl minaret_tile
+	Ns 49
+	d 1
+	illum 2
+	Kd 0.952941 0.937255 0.894118
+	Ks 0.0968627 0.0956863 0.0937255
+	Ka 0.921569 0.906399 0.864682
+        map_Kd  minartil.jpg
+
+newmtl m_arch_00
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd m_arch00.jpg
+
+newmtl m_arch_01
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd m_arch01.jpg
+
+newmtl m_arch_05
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd m_arch05.jpg
+
+newmtl m_arch_03
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd m_arch03.jpg
+
+newmtl m_arch_04
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd m_arch04.jpg
+
+newmtl frntcave_inside
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd cave.jpg
+
+newmtl m_door00
+	Ns 5
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.00509804 0.00509804 0.00509804
+	Ka 0.0980392 0.0980392 0.0980392
+        map_Kd m_door00.jpg
+
+newmtl m_door04
+	Ns 5
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.00509804 0.00509804 0.00509804
+	Ka 0.0980392 0.0980392 0.0980392
+        map_Kd m_door04.jpg
+
+newmtl m_door07
+	Ns 5
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd m_door07.jpg
+
+newmtl m_door05
+	Ns 5
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.00509804 0.00509804 0.00509804
+	Ka 0.0980392 0.0980392 0.0980392
+        map_Kd m_door05.jpg
+
+newmtl m_door06
+	Ns 5
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd m_door06.jpg
+
+newmtl m_door02
+	Ns 5
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.00509804 0.00509804 0.00509804
+	Ka 0.0980392 0.0980392 0.0980392
+        map_Kd m_door02.jpg
+
+newmtl m_door01
+	Ns 5
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.00509804 0.00509804 0.00509804
+	Ka 0.0980392 0.0980392 0.0980392
+        map_Kd m_door01.jpg
+
+newmtl m_door03
+	Ns 5
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0.00509804 0.00509804 0.00509804
+	Ka 0.0980392 0.0980392 0.0980392
+        map_Kd m_door03.jpg
+
+newmtl thinpillars
+	Ns 23
+	d 1
+	illum 2
+	Kd 0.827451 0.843137 0.8
+	Ks 0.326667 0.326667 0.326667
+	Ka 0.754327 0.768627 0.729302
+        map_Kd patern03.jpg
+
+newmtl lines_around
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd stripes.jpg
+
+newmtl galery
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd galry01.jpg
+
+newmtl sm_door
+	Ns 0
+	d 1
+	illum 2
+	Kd 0 0 0
+	Ks 0 0 0
+	Ka 0 0 0
+        map_Kd smdoor.jpg
+
+newmtl sm_arch_01
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd smarch01.jpg
+
+newmtl sm_arch_02
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd smarch02.jpg
+
+newmtl sm_arch_03
+	Ns 0
+	d 1
+	illum 2
+	Kd 1 1 1
+	Ks 0 0 0
+	Ka 1 1 1
+        map_Kd smarch03.jpg
+
+newmtl sky
+	Ns 5
+	d 1
+	illum 2
+	Kd 0.498039 0.498039 0.498039
+	Ks 0.044902 0.044902 0.044902
+	Ka 0.0980392 0.0980392 0.0980392
+        map_Kd cloud2.jpg
+
+newmtl brass
+	Ns 32
+	d 1
+	illum 2
+	Kd 0.392157 0.333333 0.227451
+	Ks 1.54 1.309 0.8932
+	Ka 0.0980392 0.0666667 0
+        map_Kd brass.jpg
+
+newmtl topfloor2
+	Ns 25
+	d 1
+	illum 2
+	Kd 0.654902 0.545098 0.537255
+	Ks 0.0768627 0.0698039 0.0690196
+	Ka 0.580392 0.483081 0.47613
+	map_Kd patern13.jpg
+
